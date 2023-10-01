@@ -5,21 +5,21 @@ using UnityEngine;
 
 public class ObstacleGeneration : MonoBehaviour
 {
-    [SerializeField] float sendTimer = 1;
-    [SerializeField] float frequency = 2;
-    [SerializeField] float position;
-    [SerializeField] GameObject obstacle;
-    [SerializeField] GameObject player;
+    [SerializeField] float SendTimer = 1;
+    [SerializeField] float Frequency = 2;
+    [SerializeField] float Position;
+    [SerializeField] GameObject Obstacle;
+    [SerializeField] GameObject Player;
 
     private void Update()
     {
-        sendTimer -= Time.deltaTime;
-        if (sendTimer <= 0)
+        SendTimer -= Time.deltaTime;
+        if (SendTimer <= 0)
         {
-            position = Random.Range(4.5f, 9.5f);
-            transform.position = new Vector3(2.45f, position, 3);
-            Instantiate(obstacle, transform.position, transform.rotation);
-            sendTimer = frequency;
+            Position = Random.Range(4.5f, 9.5f);
+            transform.position = new Vector3(2.45f, Position, 3);
+            Instantiate(Obstacle, transform.position, transform.rotation);
+            SendTimer = Frequency;
         }
     }
 }

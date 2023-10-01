@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class GenerateLevel : MonoBehaviour
 {
-    [SerializeField] float lifeTime = 20;
-    [SerializeField] float speed = 5.0f;
+    [SerializeField] float LifeTime = 20;
+    [SerializeField] float Speed = 5.0f;
 
     private void Update()
     {
-        lifeTime -= Time.deltaTime;
-        if (lifeTime <= 0) Destroy(gameObject);
-        else transform.Translate(0, 0, (-speed) * Time.deltaTime);
+        LifeTime -= Time.deltaTime;
+        if (LifeTime <= 0) Destroy(gameObject);
+        else transform.Translate(0, 0, (-Speed) * Time.deltaTime);
     }
 }

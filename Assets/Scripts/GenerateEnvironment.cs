@@ -5,17 +5,17 @@ using UnityEngine;
 
 public class GenerateEnvironment : MonoBehaviour
 {
-    [SerializeField] float sendTimer = 0;
-    [SerializeField] float frequency = 5;
-    [SerializeField] GameObject floor;
+    [SerializeField] float SendTimer = 0;
+    [SerializeField] float Frequency = 5;
+    [SerializeField] GameObject Floor;
 
     private void Update()
     {
-        sendTimer -= Time.deltaTime;
-        if(sendTimer <= 0 )
+        SendTimer -= Time.deltaTime;
+        if(SendTimer <= 0 )
         {
-            Instantiate(floor, new Vector3(8.2066f, 15.68226f, -10.37972f), transform.rotation);
-            sendTimer = frequency;
+            Instantiate(Floor, new Vector3(8.2066f, 15.68226f, -10.37972f), transform.rotation);
+            SendTimer = Frequency;
         }
     }
 }

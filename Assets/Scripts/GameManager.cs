@@ -8,26 +8,26 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public int playerScore;
-    public TextMeshProUGUI scoreText;
-    public TextMeshProUGUI gameScoreText;
-    public GameObject levelCompletePanel;
-    public TextMeshProUGUI finalScoreText;
-    public Button restartLevelButton;
+    public int PlayerScore;
+    public TextMeshProUGUI ScoreText;
+    public TextMeshProUGUI GameScoreText;
+    public GameObject LevelCompletePanel;
+    public TextMeshProUGUI FinalScoreText;
+    public Button RestartLevelButton;
     void Start()
     {
-        levelCompletePanel.SetActive(false);
+        LevelCompletePanel.SetActive(false);
 
     }
     public void RestartLevel()
     {
-        levelCompletePanel.SetActive(false);
+        LevelCompletePanel.SetActive(false);
         SceneManager.LoadScene("SampleScene");
     }
 
     public void ShowlevelCompletePanel()
     {
-        levelCompletePanel.SetActive(true);
+        LevelCompletePanel.SetActive(true);
     }
 
     public void StartLevel()

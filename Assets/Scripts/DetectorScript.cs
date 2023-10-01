@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DetectorScript : MonoBehaviour
 {
-    public GameManager manager;
+    public GameManager Manager;
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Building"))
@@ -13,14 +13,14 @@ public class DetectorScript : MonoBehaviour
             gameObject.GetComponent<AudioSource>().Stop();
             other.gameObject.GetComponent<AudioSource>().Play();
             Debug.Log("Game over!");
-            manager.ShowlevelCompletePanel();
-            manager.gameScoreText.text = $"Score: {manager.playerScore}";
+            Manager.ShowlevelCompletePanel();
+            Manager.GameScoreText.text = $"Score: {Manager.PlayerScore}";
         } else if(other.gameObject.CompareTag("Checkpoint"))
         {
             other.gameObject.GetComponent<AudioSource>().Play();
             Debug.Log("Passed!");
-            manager.playerScore++;
-            manager.scoreText.text = $"{manager.playerScore}";
+            Manager.PlayerScore++;
+            Manager.ScoreText.text = $"{Manager.PlayerScore}";
         }
     }
 }
