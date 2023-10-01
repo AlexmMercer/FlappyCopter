@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject LevelCompletePanel;
     public TextMeshProUGUI FinalScoreText;
     public Button RestartLevelButton;
+
     void Start()
     {
         LevelCompletePanel.SetActive(false);

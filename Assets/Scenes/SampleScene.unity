@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &35059487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8057691172657265843, guid: 295fbe6f8ab38d640ae17a5bcbc40947, type: 3}
+  m_PrefabInstance: {fileID: 8411477183297368158}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &159367486
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,9 +962,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d01bfb17844f644fae2aff5d0e7f1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainBlades: {fileID: 1057519056}
-  tailBlades: {fileID: 1154988230}
-  bladesRotationSpeed: 3000
+  MainBlades: {fileID: 1057519056}
+  TailBlades: {fileID: 1154988230}
+  BladesRotationSpeed: 3000
 --- !u!82 &791055152
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1523,6 +1528,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 408810147478949389, guid: 000e6f852de8c2547a70214095791e22, type: 3}
+      propertyPath: Floor
+      value: 
+      objectReference: {fileID: 35059487}
+    - target: {fileID: 408810147478949389, guid: 000e6f852de8c2547a70214095791e22, type: 3}
       propertyPath: frequency
       value: 0.9
       objectReference: {fileID: 0}
@@ -1531,9 +1540,17 @@ PrefabInstance:
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 1494315115587454073, guid: 000e6f852de8c2547a70214095791e22, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 791055142}
+    - target: {fileID: 1494315115587454073, guid: 000e6f852de8c2547a70214095791e22, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 791055142}
+    - target: {fileID: 1494315115587454073, guid: 000e6f852de8c2547a70214095791e22, type: 3}
+      propertyPath: Obstacle
+      value: 
+      objectReference: {fileID: 530839328232939304, guid: 5936cfba89d85dd448413d64de4d6288, type: 3}
     - target: {fileID: 1494315115587454073, guid: 000e6f852de8c2547a70214095791e22, type: 3}
       propertyPath: frequency
       value: 1.65
@@ -1579,17 +1596,37 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8957919518264752842, guid: 000e6f852de8c2547a70214095791e22, type: 3}
+      propertyPath: ScoreText
+      value: 
+      objectReference: {fileID: 715977123}
+    - target: {fileID: 8957919518264752842, guid: 000e6f852de8c2547a70214095791e22, type: 3}
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 715977123}
     - target: {fileID: 8957919518264752842, guid: 000e6f852de8c2547a70214095791e22, type: 3}
+      propertyPath: GameScoreText
+      value: 
+      objectReference: {fileID: 774758446}
+    - target: {fileID: 8957919518264752842, guid: 000e6f852de8c2547a70214095791e22, type: 3}
       propertyPath: gameScoreText
+      value: 
+      objectReference: {fileID: 774758446}
+    - target: {fileID: 8957919518264752842, guid: 000e6f852de8c2547a70214095791e22, type: 3}
+      propertyPath: FinalScoreText
       value: 
       objectReference: {fileID: 774758446}
     - target: {fileID: 8957919518264752842, guid: 000e6f852de8c2547a70214095791e22, type: 3}
       propertyPath: finalScoreText
       value: 
       objectReference: {fileID: 774758446}
+    - target: {fileID: 8957919518264752842, guid: 000e6f852de8c2547a70214095791e22, type: 3}
+      propertyPath: LevelCompletePanel
+      value: 
+      objectReference: {fileID: 1597639682}
+    - target: {fileID: 8957919518264752842, guid: 000e6f852de8c2547a70214095791e22, type: 3}
+      propertyPath: RestartLevelButton
+      value: 
+      objectReference: {fileID: 2030353856}
     - target: {fileID: 8957919518264752842, guid: 000e6f852de8c2547a70214095791e22, type: 3}
       propertyPath: levelCompletePanel
       value: 
@@ -1732,6 +1769,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: helicopter
       objectReference: {fileID: 0}
+    - target: {fileID: 3776078350336687399, guid: d367da1da6d0d9c41bf23027a439e2ee, type: 3}
+      propertyPath: Manager
+      value: 
+      objectReference: {fileID: 1516204142}
     - target: {fileID: 3776078350336687399, guid: d367da1da6d0d9c41bf23027a439e2ee, type: 3}
       propertyPath: manager
       value: 

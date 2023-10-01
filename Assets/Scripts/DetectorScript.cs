@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class DetectorScript : MonoBehaviour
 {
     public GameManager Manager;
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Building"))
