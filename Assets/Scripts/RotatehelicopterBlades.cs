@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class RotatehelicopterBlades : MonoBehaviour
 {
-    public GameObject mainBlades;
-    public GameObject tailBlades;
-    public float bladesRotationSpeed;
-    void Start()
-    {
-        
-    }
+    [SerializeField] GameObject mainBlades;
+    [SerializeField] GameObject tailBlades;
+    [SerializeField] float bladesRotationSpeed;
 
     void Update()
     {

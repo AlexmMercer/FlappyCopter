@@ -12,7 +12,6 @@ public class DetectorScript : MonoBehaviour
             Destroy(gameObject);
             gameObject.GetComponent<AudioSource>().Stop();
             other.gameObject.GetComponent<AudioSource>().Play();
-            Time.timeScale = 0.0f;
             Debug.Log("Game over!");
             manager.ShowlevelCompletePanel();
             manager.gameScoreText.text = $"Score: {manager.playerScore}";

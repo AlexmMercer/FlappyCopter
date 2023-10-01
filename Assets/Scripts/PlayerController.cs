@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Vector3 direction;
-    public float gravity = -9.8f;
-    public float force = 5.0f;
+    [SerializeField] float gravity = -9.8f;
+    [SerializeField] float force = 5.0f;
 
     private void Start()
     {

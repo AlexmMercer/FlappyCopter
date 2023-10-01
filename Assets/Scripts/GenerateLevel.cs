@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GenerateLevel : MonoBehaviour
 {
-    public float lifeTime = 20;
-    public float speed = 5.0f;
+    [SerializeField] float lifeTime = 20;
+    [SerializeField] float speed = 5.0f;
 
     private void Update()
     {

@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class GenerateEnvironment : MonoBehaviour
 {
-    public float sendTimer = 0;
-    public float frequency = 5;
-    public GameObject floor;
+    [SerializeField] float sendTimer = 0;
+    [SerializeField] float frequency = 5;
+    [SerializeField] GameObject floor;
 
     private void Update()
     {

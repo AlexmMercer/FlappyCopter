@@ -17,29 +17,17 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         levelCompletePanel.SetActive(false);
-        if(Time.timeScale == 0.0f) Time.timeScale = 1.0f;
-        Debug.Log(Time.timeScale);
-        //restartLevelButton.onClick.AddListener(RestartLevel);
 
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void RestartLevel()
     {
         levelCompletePanel.SetActive(false);
-        Time.timeScale = 1.0f;
         SceneManager.LoadScene("SampleScene");
     }
 
     public void ShowlevelCompletePanel()
     {
         levelCompletePanel.SetActive(true);
-        Time.timeScale = 1.0f;
     }
 
     public void StartLevel()
@@ -55,7 +43,5 @@ public class GameManager : MonoBehaviour
     public void QuitToMainMenu()
     {
         SceneManager.LoadScene("MainMenuScene");
-        Time.timeScale = 1.0f;
-        Debug.Log(Time.timeScale);
     }
 }
