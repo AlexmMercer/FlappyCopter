@@ -9,11 +9,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public int PlayerScore;
-    public TextMeshProUGUI ScoreText;
-    public TextMeshProUGUI GameScoreText;
     public GameObject LevelCompletePanel;
-    public TextMeshProUGUI FinalScoreText;
-    public Button RestartLevelButton;
 
     void Start()
     {
