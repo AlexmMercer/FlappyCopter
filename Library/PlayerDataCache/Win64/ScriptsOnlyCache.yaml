@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Building
     - DetectorScript
     - GameManager
     - GenerateEnvironment
@@ -8,6 +9,7 @@ ScriptsOnlyBuild:
     - MainmenuManager
     - ObstacleGeneration
     - PlayerController
+    - PointZone
     - RotatehelicopterBlades
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -148,6 +150,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 22052}
     - Class: 114
       Script: {instanceID: 22834}
+    - Class: 114
+      Script: {instanceID: 55226}
+    - Class: 114
+      Script: {instanceID: 55376}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -229,6 +235,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21130}
     - Class: 114
       Script: {instanceID: 22052}
+    - Class: 114
+      Script: {instanceID: 55226}
+    - Class: 114
+      Script: {instanceID: 55376}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -318,12 +328,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 34b31feb94bd2c136c6f329102f7b01a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FPSWalkerEnhanced
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -860,12 +864,6 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 11e9c68f15be2e1fc51ffae22c55f21b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SkyboxRotator
-  - hash:
-      serializedVersion: 2
       Hash: 956bbf4bd8228725c70221cdd52bbd5c
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -942,12 +940,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
-  - hash:
-      serializedVersion: 2
-      Hash: 8757a9e6c47d52bea9fc412c1b5e6d0a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SmoothMouseLook
   - hash:
       serializedVersion: 2
       Hash: f4f39b64f410b0cd98b49df4bad0eb7e
@@ -1148,12 +1140,6 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 357233ca6c5965a6be60a4af830d1a23
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SkyboxChanger
-  - hash:
-      serializedVersion: 2
       Hash: 90ea24a0d2a1979c497096e6bacf47c0
     assemblyName: Boxophobic.Utils.Scripts
     namespaceName: Boxophobic.Utils
@@ -1200,6 +1186,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Building
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PointZone
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity

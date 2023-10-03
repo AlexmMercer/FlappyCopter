@@ -15,7 +15,7 @@ C:/Users/ogane/OneDrive/Documents/GitHub/FlappyCopter
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-61291
+63597
 Successfully changed project path to: C:/Users/ogane/OneDrive/Documents/GitHub/FlappyCopter
 C:/Users/ogane/OneDrive/Documents/GitHub/FlappyCopter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/ogane/OneDrive/Documents/GitHub/FlappyCopter
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14936] Host "[IP] 192.168.18.77 [Port] 0 [Flags] 2 [Guid] 2244256299 [EditorId] 2244256299 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [54372] Host "[IP] 192.168.18.77 [Port] 0 [Flags] 2 [Guid] 2200832566 [EditorId] 2200832566 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14936] Host "[IP] 192.168.18.77 [Port] 0 [Flags] 2 [Guid] 2244256299 [EditorId] 2244256299 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [54372] Host "[IP] 192.168.18.77 [Port] 0 [Flags] 2 [Guid] 2200832566 [EditorId] 2200832566 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 20.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -70,49 +70,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010225 seconds.
-- Loaded All Assemblies, in  0.289 seconds
+Registered in 0.007553 seconds.
+- Loaded All Assemblies, in  0.373 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 221 ms
+Android Extension - Scanning For ADB Devices 284 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.451 seconds
-Domain Reload Profiling: 739ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.603 seconds
+Domain Reload Profiling: 975ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (103ms)
-		LoadAssemblies (109ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (115ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (101ms)
-			TypeCache.Refresh (100ms)
-				TypeCache.ScanAssembly (91ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (137ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (452ms)
+	FinalizeReload (603ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (409ms)
+		SetupLoadedEditorAssemblies (548ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (304ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (404ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (67ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 739ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.521 seconds
-Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+- Loaded All Assemblies, in  4.469 seconds
+Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -130,165 +130,1456 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.389 seconds
-Domain Reload Profiling: 908ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.781 seconds
+Domain Reload Profiling: 5250ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (352ms)
-		LoadAssemblies (287ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (4236ms)
+		LoadAssemblies (4071ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (99ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (389ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (190ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (782ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (287ms)
+		SetupLoadedEditorAssemblies (613ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
+			InitializePlatformSupportModulesInManaged (33ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (211ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (502ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3164 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (56.6 KB). Loaded Objects now: 3637.
-Memory consumption went from 127.3 MB to 127.3 MB.
-Total: 2.651800 ms (FindLiveObjects: 0.213100 ms CreateObjectMapping: 0.108200 ms MarkObjects: 2.184100 ms  DeleteObjects: 0.145300 ms)
+Unloading 3161 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (56.8 KB). Loaded Objects now: 3636.
+Memory consumption went from 129.8 MB to 129.7 MB.
+Total: 3.224800 ms (FindLiveObjects: 0.245600 ms CreateObjectMapping: 0.112000 ms MarkObjects: 2.792400 ms  DeleteObjects: 0.074100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/SkyboxRotator.cs: c122ade9e2d3a916264f47a45be02789 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FPSWalkerEnhanced.cs: 83ef146d82d16e0154acb6ccb6ea706a -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/SkyboxChanger.cs: 27a9374ce1608ea6a343361af3aa7d38 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SmoothMouseLook.cs: e12fd67feef9d119daa060f2b0fae928 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 159040.226255 seconds.
-  path: Assets/Dark UI/Free/64 Light.png
-  artifactKey: Guid(1bf101c8c2b8aab4484cd2ff08be047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/64 Light.png using Guid(1bf101c8c2b8aab4484cd2ff08be047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae20134e273262d116540c3accbc9ae2') in 0.078667 seconds
+  Time since last request: 242914.029994 seconds.
+  path: Assets/resource/style01/shape023_style01_color10.png
+  artifactKey: Guid(a7643df7d6b63c2488ffe2451bc21588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape023_style01_color10.png using Guid(a7643df7d6b63c2488ffe2451bc21588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608ec2e93864cbd07b596dc85f9fbb34') in 0.116288 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Dark UI/Free/Inventory.png
-  artifactKey: Guid(a551bf3edbe49704a99e4114483bcdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Inventory.png using Guid(a551bf3edbe49704a99e4114483bcdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82142146c996a731773f3c2bbfc6ea17') in 0.026543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Dark UI/Free/BTN_Line_4PX_Medium.png
-  artifactKey: Guid(b631b747eaea1bb40a188fdced546dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/BTN_Line_4PX_Medium.png using Guid(b631b747eaea1bb40a188fdced546dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c039a2ad34a58afde589efbfd65734') in 0.020611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Dark UI/Free/E.png
-  artifactKey: Guid(8199e973785f2184594e575e5967e818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/E.png using Guid(8199e973785f2184594e575e5967e818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dadb5399c56f0fd6d655340901c8f07') in 0.018491 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Dark UI/Free/C.png
-  artifactKey: Guid(fe60e9801e85e2e47a31a90354f6add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/C.png using Guid(fe60e9801e85e2e47a31a90354f6add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bf1dfd0a03fea2fb9c7f241a43b9d5') in 0.024863 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/resource/style01/shape036_style01_color08.png
+  artifactKey: Guid(64b2fc0b9d5eb2a4fbe3254683250246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape036_style01_color08.png using Guid(64b2fc0b9d5eb2a4fbe3254683250246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d376a69d7838a58852f1597f85f9bf1') in 0.030604 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Dark UI/Free/Divider.png
-  artifactKey: Guid(3e33bda025a5e1d4eae51ae3933d9954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Divider.png using Guid(3e33bda025a5e1d4eae51ae3933d9954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b31f8ef5e6d5f0722bcd887450c247') in 0.020564 seconds
+  path: Assets/resource/style03/shape036_style03_color01.png
+  artifactKey: Guid(fb07105181b429849ab2af033c24cbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape036_style03_color01.png using Guid(fb07105181b429849ab2af033c24cbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b6c4960bddd0cba02377d3e5038d4c') in 0.027567 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Dark UI/Free/Button_Small_A.png
-  artifactKey: Guid(5ed7b78422faa044695989e1108c5d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Button_Small_A.png using Guid(5ed7b78422faa044695989e1108c5d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ac0e4f17b6f9c3a09873212bf3ceb3') in 0.025564 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/resource/style03/shape037_style03_color08.png
+  artifactKey: Guid(915ebe53f86c97a49805b169643b391d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape037_style03_color08.png using Guid(915ebe53f86c97a49805b169643b391d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410af6fb3ee0e8e197cbc2ec99cdc8e0') in 0.024992 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Dark UI/Free/BTN_A3.png
-  artifactKey: Guid(864f00a7055893d45b093ac179e35237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/BTN_A3.png using Guid(864f00a7055893d45b093ac179e35237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bcc71d1ff5a191936c5344aafad125') in 0.020557 seconds
+  Time since last request: 0.000039 seconds.
+  path: Assets/resource/style02/shape036_style02_color11.png
+  artifactKey: Guid(68f25e13702c7e24aa9144a78978f59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape036_style02_color11.png using Guid(68f25e13702c7e24aa9144a78978f59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6b0c760c409aa38b9c44ee9fda53c3') in 0.029106 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Dark UI/Free/BTN_A1.png
-  artifactKey: Guid(604d5ed6f532a5146bf48201437881ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/BTN_A1.png using Guid(604d5ed6f532a5146bf48201437881ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a240c105c986aae7c30489ac4b14f61') in 0.028477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.998701 seconds.
-  path: Assets/Dark UI/Prefabs Panel/My Info Panel.prefab
-  artifactKey: Guid(ba3a1aee54ab6804abce9e7e68ce679f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Prefabs Panel/My Info Panel.prefab using Guid(ba3a1aee54ab6804abce9e7e68ce679f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fb10dad2b3d467361380865358fe2c') in 0.018611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 11.642521 seconds.
-  path: Assets/Dark UI/Free/Music.png
-  artifactKey: Guid(f5f3ad8f35c709e4dabc990b16fd52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Music.png using Guid(f5f3ad8f35c709e4dabc990b16fd52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c522432cda705770f8344c3558a6d4e') in 0.037774 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style03/shape029_style03_color12.png
+  artifactKey: Guid(a58ceb704372e714fb728d2757428537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape029_style03_color12.png using Guid(a58ceb704372e714fb728d2757428537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611a6134193602d2b87bf0006c835a45') in 0.023858 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Dark UI/Free/Right BTN.png
-  artifactKey: Guid(9dbc314d5e9a24d459a014d90696eb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Right BTN.png using Guid(9dbc314d5e9a24d459a014d90696eb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7bb68967f1f47e1bf277b1d57c9b0d') in 0.026135 seconds
+  path: Assets/resource/style01/shape030_style01_color02.png
+  artifactKey: Guid(2687238e3d289594fb2991e43ab3f8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape030_style01_color02.png using Guid(2687238e3d289594fb2991e43ab3f8ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e14378edf53365553470f4d60c50fd') in 0.024024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style01/shape024_style01_color09.png
+  artifactKey: Guid(08adc26f4816b1d44a1edf6b0ae9bcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape024_style01_color09.png using Guid(08adc26f4816b1d44a1edf6b0ae9bcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef339e082c607b2f003afe5900f40d17') in 0.026384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.167293 seconds.
+  path: Assets/resource/style01/shape038_style01_color09.png
+  artifactKey: Guid(32faad95ecec7f7479d4ff2506efaacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape038_style01_color09.png using Guid(32faad95ecec7f7479d4ff2506efaacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a09d1d62e2e067686e6c44a1adaeb2') in 0.018880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource/style01/shape039_style01_color12.png
+  artifactKey: Guid(562ad41a04079ca4282043b376961361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape039_style01_color12.png using Guid(562ad41a04079ca4282043b376961361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07abf91d1d77fd3ac79f538bd2f353bd') in 0.018783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style01/shape039_style01_color11.png
+  artifactKey: Guid(c3177da6187f54048a295dd524213931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape039_style01_color11.png using Guid(c3177da6187f54048a295dd524213931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a6940a004da307a8b2473b1a42a5f8') in 0.020893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style01/shape038_style01_color12.png
+  artifactKey: Guid(48ccb27299de2fe42b34fa8c51d35639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape038_style01_color12.png using Guid(48ccb27299de2fe42b34fa8c51d35639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06995b89f0b6271b56bba04b58f62f02') in 0.022863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style02/shape039_style02_color03.png
+  artifactKey: Guid(3ae52b9fd075810488776e9775db97d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape039_style02_color03.png using Guid(3ae52b9fd075810488776e9775db97d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc8ba57bf10235a45d156a2b4783275') in 0.022499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style02/shape043_style02_color08.png
+  artifactKey: Guid(893d6ac1a4dc43949a801c615d5f5d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape043_style02_color08.png using Guid(893d6ac1a4dc43949a801c615d5f5d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8095c56d41c5893814801df07673121') in 0.022694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style01/shape046_style01_color06.png
+  artifactKey: Guid(d5b8bf48b88e35344b32ac8fefe4023f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape046_style01_color06.png using Guid(d5b8bf48b88e35344b32ac8fefe4023f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485011754277f1cb63b08d707cd637ad') in 0.023434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/resource/style02/shape046_style02_color12.png
+  artifactKey: Guid(542bbc1d3abdd07498f84fedc1b90ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape046_style02_color12.png using Guid(542bbc1d3abdd07498f84fedc1b90ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551a86a7af7004a857f1855e9d5f2667') in 0.025991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource/style02/shape046_style02_color07.png
+  artifactKey: Guid(3f4ad88fa0ce9f543928a232202b57b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape046_style02_color07.png using Guid(3f4ad88fa0ce9f543928a232202b57b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35704cf1f3722f4dc4c7bc7af099e08') in 0.021562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource/style01/shape049_style01_color12.png
+  artifactKey: Guid(55d1743fea4f00e43bee8887d303d701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape049_style01_color12.png using Guid(55d1743fea4f00e43bee8887d303d701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e52abcbecf11aeffb7da292d99caef') in 0.023064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/resource/style02/shape050_style02_color01.png
+  artifactKey: Guid(f23948b01a0c959409a23366216c4872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape050_style02_color01.png using Guid(f23948b01a0c959409a23366216c4872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b223e8519a97de4fed1cd6e5301a08cb') in 0.020989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/resource/style01/shape051_style01_color07.png
+  artifactKey: Guid(6288e053e41a3a44bad7eafb9209fdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape051_style01_color07.png using Guid(6288e053e41a3a44bad7eafb9209fdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65769174d2b81f8ff092fe589f0c047a') in 0.021458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/resource/style01/shape051_style01_color08.png
+  artifactKey: Guid(95cd5a1abb0d489419b6ab9d7e5db2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape051_style01_color08.png using Guid(95cd5a1abb0d489419b6ab9d7e5db2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91aa82c646efedad89405ef75249273e') in 0.020150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/resource/style01/shape049_style01_color10.png
+  artifactKey: Guid(5aa8b9ec792f0d448a1cd9c1462551e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape049_style01_color10.png using Guid(5aa8b9ec792f0d448a1cd9c1462551e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d39ef9af22f72e37f597d7f505abb57') in 0.021984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/resource/style01/shape049_style01_color11.png
+  artifactKey: Guid(1855d10e385ae144d978ed30241f91d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape049_style01_color11.png using Guid(1855d10e385ae144d978ed30241f91d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a978304206cc78388ec06597574d314e') in 0.021731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style02/shape054_style02_color08.png
+  artifactKey: Guid(54f7ad37b3b0cc6429a1250eca26c339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape054_style02_color08.png using Guid(54f7ad37b3b0cc6429a1250eca26c339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb989fcae455bf351109550b709b50c7') in 0.021160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.389853 seconds.
+  path: Assets/resource/style01/shape057_style01_color06.png
+  artifactKey: Guid(13ff77aeb17d7204b8b830fd19d9a0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape057_style01_color06.png using Guid(13ff77aeb17d7204b8b830fd19d9a0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14efc61b3f86724325bf90591f810747') in 0.021471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017492 seconds.
+  path: Assets/resource/style03/shape058_style03_color02.png
+  artifactKey: Guid(24a07284b1c80fd4fb6487c5960d6ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape058_style03_color02.png using Guid(24a07284b1c80fd4fb6487c5960d6ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f832b9da84739bc16b253b284333b96') in 0.019646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style03/shape058_style03_color12.png
+  artifactKey: Guid(a9c1c9e071060184b9d8702fdd561d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape058_style03_color12.png using Guid(a9c1c9e071060184b9d8702fdd561d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c4b0070098822e8c5d6113e64c06a1') in 0.020686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style03/shape059_style03_color02.png
+  artifactKey: Guid(620028aade45e094f842b1342292e510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape059_style03_color02.png using Guid(620028aade45e094f842b1342292e510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6a558e8ea1bc8b71c17bc97ee06ce0') in 0.022111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/resource/style01/shape059_style01_color04.png
+  artifactKey: Guid(b422078c43aa2134f89434223b8f0455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape059_style01_color04.png using Guid(b422078c43aa2134f89434223b8f0455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226dc548bf62f799c4f198f4154d65a8') in 0.019222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style03/shape059_style03_color01.png
+  artifactKey: Guid(70498d37aa722084e8b0d13bafdb152c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape059_style03_color01.png using Guid(70498d37aa722084e8b0d13bafdb152c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2bed0a5abb4731a5da6cee726dbe8a') in 0.020138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/resource/style03/shape061_style03_color05.png
+  artifactKey: Guid(6fa86afbd65a3344f95160d02060ba8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape061_style03_color05.png using Guid(6fa86afbd65a3344f95160d02060ba8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be47ea73e7c11f7f10bb3745a7ea2ab0') in 0.019305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004302 seconds.
+  path: Assets/resource/style01/shape063_style01_color09.png
+  artifactKey: Guid(8da14c5a7e31c4545a2df3f26b2a2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape063_style01_color09.png using Guid(8da14c5a7e31c4545a2df3f26b2a2ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686200e9e9b28cc95337ce664afc68fe') in 0.019737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style01/shape063_style01_color11.png
+  artifactKey: Guid(a90ff6d327600914d9d256396bd88219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape063_style01_color11.png using Guid(a90ff6d327600914d9d256396bd88219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fec131b399628d8e26ca28f5a537433') in 0.019803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style02/shape063_style02_color01.png
+  artifactKey: Guid(2127dd23f69bc2c4684df7de32c3566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape063_style02_color01.png using Guid(2127dd23f69bc2c4684df7de32c3566f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024d41157f74658e568338c7ba4228c1') in 0.018823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style03/shape064_style03_color10.png
+  artifactKey: Guid(fa60bf01997d69f40950a310d2262bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape064_style03_color10.png using Guid(fa60bf01997d69f40950a310d2262bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced4fafdddeb6778bc294e85e80c4bd0') in 0.022256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/resource/style02/shape065_style02_color06.png
+  artifactKey: Guid(6e3f3e4a4ce76f84f9d300104a7b4c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape065_style02_color06.png using Guid(6e3f3e4a4ce76f84f9d300104a7b4c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b605e3bf9120b581dc631616440896') in 0.018219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.214705 seconds.
+  path: Assets/resource/style03/shape065_style03_color07.png
+  artifactKey: Guid(85574f287a3de9e49980dae96f59921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape065_style03_color07.png using Guid(85574f287a3de9e49980dae96f59921e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335e4eca03321f4bbf2f46530c74d03e') in 0.019177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style03/shape065_style03_color11.png
+  artifactKey: Guid(f6e5b0e038d57324296e3cce01c7ed85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape065_style03_color11.png using Guid(f6e5b0e038d57324296e3cce01c7ed85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888210abdc7792b0817f29a542529f60') in 0.018320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/resource/style03/shape065_style03_color09.png
+  artifactKey: Guid(25e3a619594c087418082bf0dd652a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape065_style03_color09.png using Guid(25e3a619594c087418082bf0dd652a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea556957931781d10872785b80ff65a8') in 0.018256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001460 seconds.
+  path: Assets/resource/style02/shape067_style02_color03.png
+  artifactKey: Guid(41b69dd8207c70c43a31f919f2597b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape067_style02_color03.png using Guid(41b69dd8207c70c43a31f919f2597b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa216765d934b57ffea5e3b0e1941ef') in 0.021256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style02/shape067_style02_color04.png
+  artifactKey: Guid(a697ad7da4383074e80acbdfc709b93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape067_style02_color04.png using Guid(a697ad7da4383074e80acbdfc709b93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44173915ff36bf2cd886b56d929637a5') in 0.021371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/resource/style02/shape068_style02_color09.png
+  artifactKey: Guid(23ca4df1c1c4f604e9ca3d8ff64da698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape068_style02_color09.png using Guid(23ca4df1c1c4f604e9ca3d8ff64da698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada7d86bad8604ee9ec0870568f9c8a3') in 0.019232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style02/shape069_style02_color10.png
+  artifactKey: Guid(5f9f7a51cecfca84a8a1189c27fa80a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape069_style02_color10.png using Guid(5f9f7a51cecfca84a8a1189c27fa80a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8fb37feb15e37cfc3296908e96da02') in 0.019944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/resource/style01/shape070_style01_color05.png
+  artifactKey: Guid(0fa30d8ba9cb1704c9d06f0b66e35cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape070_style01_color05.png using Guid(0fa30d8ba9cb1704c9d06f0b66e35cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0977660ad7dc6788ccec0ccba2c09a') in 0.021261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004326 seconds.
+  path: Assets/resource/style02/shape071_style02_color07.png
+  artifactKey: Guid(7aa3734b6a68c3d40be248911790a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape071_style02_color07.png using Guid(7aa3734b6a68c3d40be248911790a5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7e99da959049e9cd56e9cfd1cef4d4') in 0.018982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/resource/style02/shape071_style02_color09.png
+  artifactKey: Guid(752db95e478a92e4fb1169298502b309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape071_style02_color09.png using Guid(752db95e478a92e4fb1169298502b309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037d8bc26bbea4f51fccebce792ebb7a') in 0.019894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style02/shape071_style02_color11.png
+  artifactKey: Guid(17657273986820d419e7121176e1598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape071_style02_color11.png using Guid(17657273986820d419e7121176e1598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7905d0750f84636afdb24e722c0d69e') in 0.018754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/resource/style02/shape072_style02_color10.png
+  artifactKey: Guid(0ab69346bc474a248b7748a9ad5d2cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape072_style02_color10.png using Guid(0ab69346bc474a248b7748a9ad5d2cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01061567da35d68a355488e15d92a770') in 0.020750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style03/shape072_style03_color01.png
+  artifactKey: Guid(11890d5083428204a83816ef86cf39bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape072_style03_color01.png using Guid(11890d5083428204a83816ef86cf39bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cceffc555bf8d6e68be2d294103d278') in 0.018849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008003 seconds.
+  path: Assets/resource/style01/shape073_style01_color05.png
+  artifactKey: Guid(780a44e62c1d0254193d4d34989af91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape073_style01_color05.png using Guid(780a44e62c1d0254193d4d34989af91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2c6532c44ca2a6d6c457735140e7d7') in 0.019982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style01/shape073_style01_color07.png
+  artifactKey: Guid(e578265e620110942b82b7a99fc9519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape073_style01_color07.png using Guid(e578265e620110942b82b7a99fc9519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327fb400aa01e765a1c84cee740a64f1') in 0.020244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource/style03/shape073_style03_color02.png
+  artifactKey: Guid(9d925189bd33db94486d4eabc02294a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape073_style03_color02.png using Guid(9d925189bd33db94486d4eabc02294a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a23b7e6809c71ac9490abe449f51bc0') in 0.019566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource/style03/shape073_style03_color03.png
+  artifactKey: Guid(544ac00b3cd536d44ad1b17b0746008b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape073_style03_color03.png using Guid(544ac00b3cd536d44ad1b17b0746008b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2269d8abf8cf38ecb1b60ea0e615ac') in 0.021217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style01/shape073_style01_color06.png
+  artifactKey: Guid(33567cac9568df24a985d251fa64eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape073_style01_color06.png using Guid(33567cac9568df24a985d251fa64eaf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705539edfec6a90b04a8e846f0480bcb') in 0.017044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.049797 seconds.
+  path: Assets/resource/style01/shape074_style01_color07.png
+  artifactKey: Guid(ba7ad1c9a98b498428f9eff8d9f0b772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape074_style01_color07.png using Guid(ba7ad1c9a98b498428f9eff8d9f0b772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960a86816356cfad814dea4099cb4f57') in 0.019723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/resource/style01/shape074_style01_color09.png
+  artifactKey: Guid(88cd8990cb4897f4ba10ae68a24c1500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape074_style01_color09.png using Guid(88cd8990cb4897f4ba10ae68a24c1500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7c79291cca17a65a89c12ac8e3f0c3') in 0.020169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.012767 seconds.
+  path: Assets/resource/style02/shape074_style02_color12.png
+  artifactKey: Guid(d2938ef6623e7b044b369e69463f0afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape074_style02_color12.png using Guid(d2938ef6623e7b044b369e69463f0afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4cf7088db69561ddfed8a032788e1d') in 0.019711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/resource/style03/shape074_style03_color03.png
+  artifactKey: Guid(5e1b2d2cbc2836945abad6ab84c57632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape074_style03_color03.png using Guid(5e1b2d2cbc2836945abad6ab84c57632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd35445d0b5e79e2b17c4f6928e4a800') in 0.018034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style01/shape075_style01_color10.png
+  artifactKey: Guid(286b96c8d9407504c86fc7d8e685739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape075_style01_color10.png using Guid(286b96c8d9407504c86fc7d8e685739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db91169fe34f16c985d6d214f5b9c13') in 0.021438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style03/shape075_style03_color01.png
+  artifactKey: Guid(590109c917b6d1740aaca335c30f889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape075_style03_color01.png using Guid(590109c917b6d1740aaca335c30f889c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f3c985eca6acecbae48d5976b1c2a4') in 0.023661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/resource/style01/shape076_style01_color09.png
+  artifactKey: Guid(172cb80a651225545870621c97d8905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape076_style01_color09.png using Guid(172cb80a651225545870621c97d8905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f753d83ea2c53d0a2ad11136dd7c78') in 0.020124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style02/shape076_style02_color02.png
+  artifactKey: Guid(759216cff74b39941a2d0e2dd069009b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape076_style02_color02.png using Guid(759216cff74b39941a2d0e2dd069009b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a327c5fad50c7ce42e4b586bb780a1ea') in 0.018505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource/style02/shape075_style02_color02.png
+  artifactKey: Guid(9f4e894e623600c41a69e0aee4e564e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape075_style02_color02.png using Guid(9f4e894e623600c41a69e0aee4e564e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfeaedd34da337ff6a8dd45f30b3b3fe') in 0.023408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/resource/style03/shape075_style03_color04.png
+  artifactKey: Guid(1bc6303e1be8179498ef3a516675cea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape075_style03_color04.png using Guid(1bc6303e1be8179498ef3a516675cea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c97cf9b5974ab3182598f75c0eb194') in 0.022597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/resource/style01/shape076_style01_color12.png
+  artifactKey: Guid(eb48801bb108c674bb1b968d320a11d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape076_style01_color12.png using Guid(eb48801bb108c674bb1b968d320a11d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea315e0e8d26cd2edf2f6dbb6123b038') in 0.020411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.346699 seconds.
+  path: Assets/resource/style03/shape076_style03_color05.png
+  artifactKey: Guid(a9c0730277d605444a95f73906908a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape076_style03_color05.png using Guid(a9c0730277d605444a95f73906908a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89d9d70185c2aa4e78c13ab2a7f241a') in 0.018936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/resource/style02/shape077_style02_color01.png
+  artifactKey: Guid(ae76345e497f2354fa36b66a67fbba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape077_style02_color01.png using Guid(ae76345e497f2354fa36b66a67fbba61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565cd8a95797151230a2c72347895978') in 0.021433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource/style01/shape077_style01_color11.png
+  artifactKey: Guid(f384868e3d44c394781f94be89894b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape077_style01_color11.png using Guid(f384868e3d44c394781f94be89894b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa940dfbdf8f022c15d0313111af7d5') in 0.019677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource/style02/shape077_style02_color02.png
+  artifactKey: Guid(7c59475438636dc45a72d11b32a0c855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape077_style02_color02.png using Guid(7c59475438636dc45a72d11b32a0c855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87c5b405c39c56bdb0b59e5fdcc25a4') in 0.019731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource/style03/shape077_style03_color07.png
+  artifactKey: Guid(4e3ce91d7b38b5842a59f87da15d2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape077_style03_color07.png using Guid(4e3ce91d7b38b5842a59f87da15d2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c490ccb7a1d457f3e7f7973e7fe8a158') in 0.021420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/resource/style03/shape077_style03_color05.png
+  artifactKey: Guid(a900a52293e5f2e4388f3614c9fbb5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape077_style03_color05.png using Guid(a900a52293e5f2e4388f3614c9fbb5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e32823c18654f0d04d2c94633a8d36') in 0.018680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style03/shape078_style03_color11.png
+  artifactKey: Guid(0c74b09b3e4e1cc42b3366c0fe3c4272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape078_style03_color11.png using Guid(0c74b09b3e4e1cc42b3366c0fe3c4272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83572025e8d8b5b160b1ee76474d46ea') in 0.020303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style02/shape079_style02_color03.png
+  artifactKey: Guid(07a9c177e3d8be04088417c510d29636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape079_style02_color03.png using Guid(07a9c177e3d8be04088417c510d29636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e46d35c2ec3b413880fbecb0d37019') in 0.024226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style02/shape079_style02_color07.png
+  artifactKey: Guid(4065f881e4cc1d44994c277284ba893b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape079_style02_color07.png using Guid(4065f881e4cc1d44994c277284ba893b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aad5e9c2372190aed8190c995ce459f') in 0.019639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/resource/style03/shape077_style03_color04.png
+  artifactKey: Guid(99edf915f121b43428cb37f83350e230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape077_style03_color04.png using Guid(99edf915f121b43428cb37f83350e230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b498cf3f1982c83db247926ae76d1ae') in 0.022801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/resource/style03/shape079_style03_color12.png
+  artifactKey: Guid(7668a415b575a244fa528e91a28387ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape079_style03_color12.png using Guid(7668a415b575a244fa528e91a28387ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4bf682044115a6311f70b78fcf81c2') in 0.020989 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Dark UI/Free/Shop.png
-  artifactKey: Guid(18faf426d460ece49970252ef5e8a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Shop.png using Guid(18faf426d460ece49970252ef5e8a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46758a134ca42a4a8e097065782f8980') in 0.035483 seconds
+  path: Assets/resource/style03/shape079_style03_color10.png
+  artifactKey: Guid(a3c62277bd21ba04f9861c4b251cd64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape079_style03_color10.png using Guid(a3c62277bd21ba04f9861c4b251cd64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be03e2196db2c85eee8d800625f16159') in 0.017925 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/resource/style03/shape078_style03_color05.png
+  artifactKey: Guid(c8d373b2344860245af81ab13037e369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape078_style03_color05.png using Guid(c8d373b2344860245af81ab13037e369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3751e88ed1a91777cc39b62413d9cb3f') in 0.020813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style03/shape078_style03_color09.png
+  artifactKey: Guid(ac365995ab48f1b4db90c01afdcce2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape078_style03_color09.png using Guid(ac365995ab48f1b4db90c01afdcce2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96ad49945018396a45a5b85fde2daad') in 0.022325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031941 seconds.
+  path: Assets/resource/style03/shape080_style03_color11.png
+  artifactKey: Guid(68fc920300c71714f8557e0bb18527ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape080_style03_color11.png using Guid(68fc920300c71714f8557e0bb18527ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320a51bea4ea67a23ab3405f21eae6e7') in 0.019384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/resource/style02/shape081_style02_color04.png
+  artifactKey: Guid(cb2de942492ada0449dec5ff69a0cf08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape081_style02_color04.png using Guid(cb2de942492ada0449dec5ff69a0cf08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee211e5bdbd69c71d77cbb1d244ffe41') in 0.017977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/resource/style02/shape081_style02_color03.png
+  artifactKey: Guid(ff7a2323c27b2314d9162ad0d39cc8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape081_style02_color03.png using Guid(ff7a2323c27b2314d9162ad0d39cc8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2c3ed081b256114968781e40ac8665') in 0.019477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/resource/style02/shape081_style02_color05.png
+  artifactKey: Guid(f15bcb5199c66c1408515cc33d171d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape081_style02_color05.png using Guid(f15bcb5199c66c1408515cc33d171d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097688c872941fd365be28b8ad0a3f59') in 0.019633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style01/shape081_style01_color02.png
+  artifactKey: Guid(16a0b15c1cfb1274193789e653129277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape081_style01_color02.png using Guid(16a0b15c1cfb1274193789e653129277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430da26671b5fcee6c6ebdff31ff4b0d') in 0.019241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006332 seconds.
+  path: Assets/resource/style01/shape082_style01_color01.png
+  artifactKey: Guid(99149df62fd54be4899abc6556b8899c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape082_style01_color01.png using Guid(99149df62fd54be4899abc6556b8899c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63386843e7ddc1085fc9ac3645216d7') in 0.022872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/resource/style01/shape082_style01_color03.png
+  artifactKey: Guid(1ed8b236fc37124419c8d85b46add1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape082_style01_color03.png using Guid(1ed8b236fc37124419c8d85b46add1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1351fa7221acb5f56a363c94b182a9db') in 0.020593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.632217 seconds.
+  path: Assets/resource/style02/shape082_style02_color08.png
+  artifactKey: Guid(fad4b7715b14e464897a151e59311659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape082_style02_color08.png using Guid(fad4b7715b14e464897a151e59311659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac690f965edb1edf8decca0a077fe06') in 0.019494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/resource/style02/shape082_style02_color11.png
+  artifactKey: Guid(a833bbdd44a521549bc476befaf29b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape082_style02_color11.png using Guid(a833bbdd44a521549bc476befaf29b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc30c43ed0bc23866f412163884db669') in 0.020377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.020928 seconds.
+  path: Assets/resource/style02/shape083_style02_color09.png
+  artifactKey: Guid(1c1f179486ace514bac3a15ef56789d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape083_style02_color09.png using Guid(1c1f179486ace514bac3a15ef56789d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205980de6eea28a48b34fe460a73cfc4') in 0.020670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style01/shape084_style01_color02.png
+  artifactKey: Guid(3b142a82c4aa735488070718d9c2c6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape084_style01_color02.png using Guid(3b142a82c4aa735488070718d9c2c6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5144ac5156366de6d6c1db257ca1837') in 0.021797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style01/shape084_style01_color01.png
+  artifactKey: Guid(969fb932844ccf143a7fde8417d8066d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape084_style01_color01.png using Guid(969fb932844ccf143a7fde8417d8066d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cde8e65c90db2762c5f8ee14b99ce04') in 0.021594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/resource/style03/shape083_style03_color12.png
+  artifactKey: Guid(68a2ee31fc512d04496014eb105e1607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape083_style03_color12.png using Guid(68a2ee31fc512d04496014eb105e1607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a9b71ccf7b539f8262c6679c1ea75a') in 0.019369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018548 seconds.
+  path: Assets/resource/style02/shape084_style02_color10.png
+  artifactKey: Guid(5556c669d4354374c965167389354ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape084_style02_color10.png using Guid(5556c669d4354374c965167389354ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1307eedc3b853924dbca45a7fd045438') in 0.020294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/resource/style03/shape084_style03_color02.png
+  artifactKey: Guid(377111a6ba510334f999fc7cecb1419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape084_style03_color02.png using Guid(377111a6ba510334f999fc7cecb1419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b3d95f37fa0b00f09143e5a8e5aa59') in 0.019198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.412712 seconds.
+  path: Assets/resource/style01/shape085_style01_color06.png
+  artifactKey: Guid(eea6b73eb9fb2644e9bcc6e5e06f4062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape085_style01_color06.png using Guid(eea6b73eb9fb2644e9bcc6e5e06f4062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29567e26fe36308635b0e7f95a7add8a') in 0.021140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource/style03/shape085_style03_color02.png
+  artifactKey: Guid(de1a1d3cff579bb42b94eb3e80fe7102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape085_style03_color02.png using Guid(de1a1d3cff579bb42b94eb3e80fe7102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f80082695ff139fc2526f1fe471f49') in 0.020652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/resource/style01/shape085_style01_color09.png
+  artifactKey: Guid(9c90167c6feb7b240b11b5d66638b6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape085_style01_color09.png using Guid(9c90167c6feb7b240b11b5d66638b6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1756813afb18ba5ed9207d5f8da4e0b') in 0.023922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style03/shape085_style03_color03.png
+  artifactKey: Guid(b8b8404d9ad24054d8dabaa355e58db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape085_style03_color03.png using Guid(b8b8404d9ad24054d8dabaa355e58db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7667b754726b0254cb8fe870ed571ff1') in 0.019528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style02/shape085_style02_color12.png
+  artifactKey: Guid(334919f15e5ef794cb963318eb27a510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape085_style02_color12.png using Guid(334919f15e5ef794cb963318eb27a510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fea6efdff8d48b5e3391eeae0274150') in 0.020106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.338495 seconds.
+  path: Assets/resource/style03/shape086_style03_color02.png
+  artifactKey: Guid(ced017610444bb64c9309db3ba7c2240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape086_style03_color02.png using Guid(ced017610444bb64c9309db3ba7c2240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869de37a44596317d2d84f5390f9ff2c') in 0.018079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style03/shape086_style03_color03.png
+  artifactKey: Guid(cbfd364c9c7581249a41e3fa63481b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape086_style03_color03.png using Guid(cbfd364c9c7581249a41e3fa63481b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90219d3ef31c3c2ceb92aa41408aea9c') in 0.021059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015073 seconds.
+  path: Assets/resource/style01/shape087_style01_color08.png
+  artifactKey: Guid(909de4694b4e20c4ebd2b951e9db3b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape087_style01_color08.png using Guid(909de4694b4e20c4ebd2b951e9db3b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be38b017fa810971db53b1c3866b2caa') in 0.020113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style02/shape087_style02_color12.png
+  artifactKey: Guid(45d9bfe4f20360340bea8ed1e642c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape087_style02_color12.png using Guid(45d9bfe4f20360340bea8ed1e642c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2c1f691f651a373f17aa8984cc096f') in 0.021105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/resource/style03/shape087_style03_color04.png
+  artifactKey: Guid(32338e7ab4fa34f4e8cbda162fd5f6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape087_style03_color04.png using Guid(32338e7ab4fa34f4e8cbda162fd5f6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b081d35e6975cdf46f46d8c34a21c8e0') in 0.021643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style03/shape087_style03_color03.png
+  artifactKey: Guid(fe81c51ad7273814ba37acb6904a9a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape087_style03_color03.png using Guid(fe81c51ad7273814ba37acb6904a9a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ef7bc77b55f701c140149c8e058b1e') in 0.020510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style01/shape088_style01_color09.png
+  artifactKey: Guid(25060a665a4737747a12e7bc437bee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape088_style01_color09.png using Guid(25060a665a4737747a12e7bc437bee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4394e24115ce05cdc01999f7476361e5') in 0.024536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.046461 seconds.
+  path: Assets/resource/style03/shape088_style03_color06.png
+  artifactKey: Guid(7e89b8839790a6a479fc13109f998773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape088_style03_color06.png using Guid(7e89b8839790a6a479fc13109f998773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78eb6df7cf7fed2c6a48ae9f7f99acc9') in 0.023079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.245802 seconds.
+  path: Assets/resource/style01/shape089_style01_color12.png
+  artifactKey: Guid(2caac9b06cd93df4c90be8a9e72d2063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape089_style01_color12.png using Guid(2caac9b06cd93df4c90be8a9e72d2063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df63c5991df8efebc6226b22a7fd764') in 0.022679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/resource/style03/shape089_style03_color03.png
+  artifactKey: Guid(bb79bcc0d6202d64d8cf07441a11c80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape089_style03_color03.png using Guid(bb79bcc0d6202d64d8cf07441a11c80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463272cc498abbc27ba700461875f536') in 0.019801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style03/shape089_style03_color10.png
+  artifactKey: Guid(930bb734adef11449b5cdc1f87229e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape089_style03_color10.png using Guid(930bb734adef11449b5cdc1f87229e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbbcc911495706babb8ff667e026ebb') in 0.021731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style02/shape090_style02_color01.png
+  artifactKey: Guid(be4a86b86eab1044f961e7777615f47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape090_style02_color01.png using Guid(be4a86b86eab1044f961e7777615f47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a27f143046691b25f113a3a2ec1364') in 0.020552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource/style02/shape090_style02_color05.png
+  artifactKey: Guid(6bb82b911a8f75c44a560fe0f85fb828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape090_style02_color05.png using Guid(6bb82b911a8f75c44a560fe0f85fb828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a88111983715cab7c8b3fab75d641f8') in 0.022482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource/style03/shape090_style03_color12.png
+  artifactKey: Guid(f315e73aca0eaf040a76c5c93bf07025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape090_style03_color12.png using Guid(f315e73aca0eaf040a76c5c93bf07025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7570dfe0752a4028cbe442f35f3ebb12') in 0.021212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style03/shape090_style03_color07.png
+  artifactKey: Guid(852ca60594ca85945ae70bf67c214893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape090_style03_color07.png using Guid(852ca60594ca85945ae70bf67c214893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cf9ffd54745ea6f81959adbd8697ce') in 0.020837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031081 seconds.
+  path: Assets/resource/style03/shape091_style03_color10.png
+  artifactKey: Guid(ce423f80f0aa3624990d30ad6d12291c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape091_style03_color10.png using Guid(ce423f80f0aa3624990d30ad6d12291c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2247092803fd8907308a70eb287f627') in 0.023518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031413 seconds.
+  path: Assets/resource/style02/shape092_style02_color04.png
+  artifactKey: Guid(e0a7f7d2bf80ff0469fc4db80afd215a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape092_style02_color04.png using Guid(e0a7f7d2bf80ff0469fc4db80afd215a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9592fa607613271da5a9f25d5b360e31') in 0.020817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource/style02/shape092_style02_color06.png
+  artifactKey: Guid(d8836bf9d17bb5d4eacddf6cb504e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape092_style02_color06.png using Guid(d8836bf9d17bb5d4eacddf6cb504e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f34d9b655a21e37bbd9d562b8df337') in 0.019993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.336836 seconds.
+  path: Assets/resource/style02/shape093_style02_color06.png
+  artifactKey: Guid(c6aaf302f0bc6584ea36d458831cde79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape093_style02_color06.png using Guid(c6aaf302f0bc6584ea36d458831cde79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b48d0f85b7eb92d1452fdb72ab5550') in 0.019764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/resource/style02/shape093_style02_color09.png
+  artifactKey: Guid(d7364a04b7e4e4e4e8de3693c6597df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape093_style02_color09.png using Guid(d7364a04b7e4e4e4e8de3693c6597df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffc39f90ea80bb5720741124974e194') in 0.019106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014426 seconds.
+  path: Assets/resource/style03/shape093_style03_color12.png
+  artifactKey: Guid(064dac77fa8106e4d8bba0d77d915fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape093_style03_color12.png using Guid(064dac77fa8106e4d8bba0d77d915fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4833391bcd96a562900c76b628db78dd') in 0.022990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style02/shape094_style02_color06.png
+  artifactKey: Guid(0e45b07d16264f647849d044e82a860d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape094_style02_color06.png using Guid(0e45b07d16264f647849d044e82a860d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c5f9dc24848765e59f032c158eab77') in 0.019910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style02/shape094_style02_color10.png
+  artifactKey: Guid(26b5154a30f17fb4b87fdb49f4a826ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape094_style02_color10.png using Guid(26b5154a30f17fb4b87fdb49f4a826ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2643307a6f61b0f03ba210f46beca72') in 0.023686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005585 seconds.
+  path: Assets/resource/style03/shape094_style03_color11.png
+  artifactKey: Guid(34345fe80dcd77f45a266a387cc18b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape094_style03_color11.png using Guid(34345fe80dcd77f45a266a387cc18b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9532a2064f57c56442a21b0b68eb94d') in 0.023865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/resource/style01/shape095_style01_color03.png
+  artifactKey: Guid(84edc4c3afe907e4fa581068e3429764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape095_style01_color03.png using Guid(84edc4c3afe907e4fa581068e3429764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b0cda6d331a754ad7dc670101ed27a') in 0.021463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource/style01/shape096_style01_color05.png
+  artifactKey: Guid(2edb8698695ba02469980647400bc813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape096_style01_color05.png using Guid(2edb8698695ba02469980647400bc813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4334fee1aa2d343da7cc1e47e1f31f2') in 0.021065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/resource/style01/shape096_style01_color01.png
+  artifactKey: Guid(54a2d31bef0fc204ca32511f4962adac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape096_style01_color01.png using Guid(54a2d31bef0fc204ca32511f4962adac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5353c461c87384bc02e5014c97c946ef') in 0.019335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.144646 seconds.
+  path: Assets/resource/style02/shape096_style02_color10.png
+  artifactKey: Guid(f132399d9c9d26540b930bfef09b91b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape096_style02_color10.png using Guid(f132399d9c9d26540b930bfef09b91b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763d48bdfbbcb62bc99afd923693cbcf') in 0.021952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.048254 seconds.
+  path: Assets/resource/style01/shape097_style01_color06.png
+  artifactKey: Guid(9b364ee30df23544d8ce68a04667a519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape097_style01_color06.png using Guid(9b364ee30df23544d8ce68a04667a519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abea2031f3ca671bab87150b2127940') in 0.021350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/resource/style01/shape097_style01_color09.png
+  artifactKey: Guid(37187cb671e3a86488617dcc1401b533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape097_style01_color09.png using Guid(37187cb671e3a86488617dcc1401b533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6084af9490d0350470d274346b7c6da0') in 0.020259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.090979 seconds.
+  path: Assets/resource/style02/shape097_style02_color12.png
+  artifactKey: Guid(34d877c2a0164f44d8683f53cb4865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape097_style02_color12.png using Guid(34d877c2a0164f44d8683f53cb4865f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf93146257532ac38ef7c2fc7411b4d') in 0.021046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.042951 seconds.
+  path: Assets/resource/style01/shape098_style01_color06.png
+  artifactKey: Guid(c64a9a2c627e385408d78b35397422a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape098_style01_color06.png using Guid(c64a9a2c627e385408d78b35397422a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02ef790d5ea9b26d7de13b0fe4ff13f') in 0.023437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style02/shape098_style02_color10.png
+  artifactKey: Guid(cbe3d957afef44548959fcd6671ef3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape098_style02_color10.png using Guid(cbe3d957afef44548959fcd6671ef3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba91d47f64573588d5d4552a3b9215ef') in 0.020451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/resource/style01/shape098_style01_color08.png
+  artifactKey: Guid(3e299908530f0b44783bed17b9532430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape098_style01_color08.png using Guid(3e299908530f0b44783bed17b9532430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b162cce94876b99be333d4717340141') in 0.021682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.558108 seconds.
+  path: Assets/resource/style01/shape099_style01_color08.png
+  artifactKey: Guid(1532ebe1028d83748967971ae66414f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape099_style01_color08.png using Guid(1532ebe1028d83748967971ae66414f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2799d345f26026af256bd3dce6a1c35f') in 0.019017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style01/shape099_style01_color09.png
+  artifactKey: Guid(aca10737377ddb84aa8e3751e7cb02f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape099_style01_color09.png using Guid(aca10737377ddb84aa8e3751e7cb02f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3207c2ad76dc3b3f68a65ed81271e4b') in 0.017751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.077697 seconds.
+  path: Assets/resource/style01/shape100_style01_color10.png
+  artifactKey: Guid(f61e18ccfc692b84a814ee112d571a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape100_style01_color10.png using Guid(f61e18ccfc692b84a814ee112d571a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982a925ef696dbf297f0a0278bebb7d2') in 0.019491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/resource/style02/shape100_style02_color01.png
+  artifactKey: Guid(39a4037821a153647ad4b7d0e5a46080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape100_style02_color01.png using Guid(39a4037821a153647ad4b7d0e5a46080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7045a3e6332125418d7160795e2e8c88') in 0.017999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.015728 seconds.
+  path: Assets/resource/style03/shape100_style03_color04.png
+  artifactKey: Guid(701404710f26ebc4cace82ab90bb2906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape100_style03_color04.png using Guid(701404710f26ebc4cace82ab90bb2906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ceb891813011664e5cc933aa9678ff') in 0.022115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource/style03/shape100_style03_color08.png
+  artifactKey: Guid(ebc97e096c6a3514597dd0918418d596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape100_style03_color08.png using Guid(ebc97e096c6a3514597dd0918418d596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c808058f97ea1783ba7ed8fa96c31427') in 0.024468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.645134 seconds.
+  path: Assets/resource/style03/shape099_style03_color02.png
+  artifactKey: Guid(eaccea47095a71649b4618a8fc91fc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape099_style03_color02.png using Guid(eaccea47095a71649b4618a8fc91fc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fff46bb45058a7c88146843b5bf68c') in 0.023555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource/style03/shape099_style03_color04.png
+  artifactKey: Guid(dd1c21dc01a323140a4b19ac51dab4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape099_style03_color04.png using Guid(dd1c21dc01a323140a4b19ac51dab4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0215abc08085b1b723cf3488beaa5071') in 0.022008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.444304 seconds.
+  path: Assets/resource/style03/shape092_style03_color12.png
+  artifactKey: Guid(c03570a3040039641810b74ac78be12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape092_style03_color12.png using Guid(c03570a3040039641810b74ac78be12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19118f12b0f1632b3979b00c09c167eb') in 0.021792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.053882 seconds.
+  path: Assets/resource/style02/shape091_style02_color02.png
+  artifactKey: Guid(427547c5bb0ae844dad53a0a339383f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape091_style02_color02.png using Guid(427547c5bb0ae844dad53a0a339383f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f5b42db1a52977f74b065b2f487743') in 0.024393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource/style02/shape091_style02_color06.png
+  artifactKey: Guid(7363456400c316e488a06764b995c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape091_style02_color06.png using Guid(7363456400c316e488a06764b995c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa65ba653aad6d5d7e9667d03a982ac4') in 0.025008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.199426 seconds.
+  path: Assets/resource/style01/shape083_style01_color02.png
+  artifactKey: Guid(f09b791f9a3310b47826713f01856c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape083_style01_color02.png using Guid(f09b791f9a3310b47826713f01856c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0ce1d48ca55bf877557e6c9f43b602') in 0.021885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/resource/style01/shape083_style01_color05.png
+  artifactKey: Guid(77253e97d89c93242bd436ad27049a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape083_style01_color05.png using Guid(77253e97d89c93242bd436ad27049a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bd81fd042225bfab23e02f1fb21895') in 0.019969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.394757 seconds.
+  path: Assets/resource/style02/shape080_style02_color04.png
+  artifactKey: Guid(f464a050cffc53f4995eb7f92faad983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape080_style02_color04.png using Guid(f464a050cffc53f4995eb7f92faad983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee2d181d29f46f4c9ba42812ebda950') in 0.025237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.798869 seconds.
+  path: Assets/resource/style02/shape078_style02_color02.png
+  artifactKey: Guid(fbf42671751ffa14c86f1234392352f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape078_style02_color02.png using Guid(fbf42671751ffa14c86f1234392352f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d89e2f5936c2b172d9d0836d0d50ed') in 0.026784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.516606 seconds.
+  path: Assets/resource/style01/shape072_style01_color04.png
+  artifactKey: Guid(b8f9b66493e3ad046a527ccbdb70a0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape072_style01_color04.png using Guid(b8f9b66493e3ad046a527ccbdb70a0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a78ae633837de461793422b0d84846a') in 0.023326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.603431 seconds.
+  path: Assets/resource/style03/shape067_style03_color10.png
+  artifactKey: Guid(537b4e01ca1662b45922d0dff6aba727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape067_style03_color10.png using Guid(537b4e01ca1662b45922d0dff6aba727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c845181cd2ff01d533e9dd4fc4f3d4') in 0.028234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource/style01/shape068_style01_color02.png
+  artifactKey: Guid(34eff0e7c2c0e454cb5255de06efab33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape068_style01_color02.png using Guid(34eff0e7c2c0e454cb5255de06efab33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aefcb54ca1f8adf02ff61b9ae6efb97') in 0.024691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.420950 seconds.
+  path: Assets/resource/style01/shape061_style01_color08.png
+  artifactKey: Guid(e30a6abb7a5b50f42b28104f248bb817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape061_style01_color08.png using Guid(e30a6abb7a5b50f42b28104f248bb817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce2c8d9a8d118d03ffd6b52f9615df9') in 0.025675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.582995 seconds.
+  path: Assets/resource/style02/shape057_style02_color08.png
+  artifactKey: Guid(727903fa5663f9a4d9f2a49e6a2bab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape057_style02_color08.png using Guid(727903fa5663f9a4d9f2a49e6a2bab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07bafa6da33b4f9fb2786a0ed93abff') in 0.033548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource/style02/shape057_style02_color10.png
+  artifactKey: Guid(1b4d67bf10eec754ba1acf1457050567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape057_style02_color10.png using Guid(1b4d67bf10eec754ba1acf1457050567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e381bd38880facd4a6db9c518d8832b') in 0.020108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.169329 seconds.
+  path: Assets/resource/style03/shape055_style03_color12.png
+  artifactKey: Guid(3d7c1651ddc74544fb18640c93d87564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape055_style03_color12.png using Guid(3d7c1651ddc74544fb18640c93d87564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e4768b693273c0f177c922427a3331') in 0.029216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/resource/style01/shape056_style01_color01.png
+  artifactKey: Guid(29e136c531b7cff42940c3c098b9d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape056_style01_color01.png using Guid(29e136c531b7cff42940c3c098b9d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8988e4e898775d7f02ab37d21cb22b') in 0.023607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.726766 seconds.
+  path: Assets/resource/style02/shape053_style02_color02.png
+  artifactKey: Guid(5329e23bcc85dea48b2212a36ea428c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape053_style02_color02.png using Guid(5329e23bcc85dea48b2212a36ea428c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df111bb9795449c62668dd7598bcd4e7') in 0.025467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.721556 seconds.
+  path: Assets/resource/style03/shape038_style03_color04.png
+  artifactKey: Guid(9347e9858f308ad439d868db213a48d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape038_style03_color04.png using Guid(9347e9858f308ad439d868db213a48d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0821f4bbf362dc919a3d93947cea481') in 0.026923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.666949 seconds.
+  path: Assets/resource/style02/shape035_style02_color12.png
+  artifactKey: Guid(32394080dfee95e4dad42cf8f0d27f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape035_style02_color12.png using Guid(32394080dfee95e4dad42cf8f0d27f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb5d416824a0a5363102aafb7976f34') in 0.021470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.201223 seconds.
+  path: Assets/resource/style01/shape035_style01_color06.png
+  artifactKey: Guid(8abd948a073e41a4f8eeb1b89cb7dc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape035_style01_color06.png using Guid(8abd948a073e41a4f8eeb1b89cb7dc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1baf0600189887cb1e9c54b0c22e6572') in 0.021946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.272473 seconds.
+  path: Assets/resource/style01/shape034_style01_color04.png
+  artifactKey: Guid(2be3aac99a3d8ee44b0972b41a0db51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape034_style01_color04.png using Guid(2be3aac99a3d8ee44b0972b41a0db51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326a1e8cbbcf82c4f79dcaa2bdf09d98') in 0.183512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/resource/style03/shape031_style03_color08.png
+  artifactKey: Guid(7bfe73007adcc0e40a9e08161d99f350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape031_style03_color08.png using Guid(7bfe73007adcc0e40a9e08161d99f350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a395cb9a8d4313bc751ab9131b3d6422') in 0.072064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/resource/style01/shape032_style01_color03.png
+  artifactKey: Guid(1b3bdbfa719b15c4c96a299974e7020c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style01/shape032_style01_color03.png using Guid(1b3bdbfa719b15c4c96a299974e7020c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3263a0c85cebcbaa4af348c341ae7be6') in 0.023828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.104381 seconds.
+  path: Assets/resource/style02/shape028_style02_color08.png
+  artifactKey: Guid(58d97bc2aef16804785c59dcb41cfd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style02/shape028_style02_color08.png using Guid(58d97bc2aef16804785c59dcb41cfd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d346da9dfa618d3aa97f65a993fbaf') in 0.018565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.345410 seconds.
+  path: Assets/resource/style03/shape024_style03_color05.png
+  artifactKey: Guid(209822d80bc3c984dbbbca917bb518ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource/style03/shape024_style03_color05.png using Guid(209822d80bc3c984dbbbca917bb518ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f49e5fe958352c8dfb4d862d4613bc') in 0.025305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.442 seconds
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.761 seconds
+Domain Reload Profiling: 1202ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (210ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (761ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (379ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (274ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (30.5 KB). Loaded Objects now: 3644.
+Memory consumption went from 124.1 MB to 124.0 MB.
+Total: 3.721100 ms (FindLiveObjects: 0.394100 ms CreateObjectMapping: 0.157300 ms MarkObjects: 3.103500 ms  DeleteObjects: 0.064800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/SkyboxRotator.cs: c122ade9e2d3a916264f47a45be02789 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FPSWalkerEnhanced.cs: 83ef146d82d16e0154acb6ccb6ea706a -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/SkyboxChanger.cs: 27a9374ce1608ea6a343361af3aa7d38 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SmoothMouseLook.cs: e12fd67feef9d119daa060f2b0fae928 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
