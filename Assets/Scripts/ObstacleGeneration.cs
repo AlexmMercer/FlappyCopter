@@ -11,13 +11,19 @@ public class ObstacleGeneration : MonoBehaviour
     [SerializeField] GameObject Obstacle;
     [SerializeField] GameObject Player;
 
+    private float obstaclesXPosition = 2.45f;
+    private float obstaclesZPosition = 3.0f;
+    private float obstaclesHeightLowerValue = 4.5f;
+    private float obstaclesHieghtUpperValue = 9.5f;
+
     private void Update()
     {
         SendTimer -= Time.deltaTime;
         if (SendTimer <= 0)
         {
-            Position = Random.Range(4.5f, 9.5f);
-            transform.position = new Vector3(2.45f, Position, 3);
+            Position = Random.Range(obstaclesHeightLowerValue, obstaclesHieghtUpperValue);
+            transform.position = new Vector3(obstaclesXPosition,
+                                             Position, obstaclesZPosition);
             Instantiate(Obstacle, transform.position, transform.rotation);
             SendTimer = Frequency;
         }

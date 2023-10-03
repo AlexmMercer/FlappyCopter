@@ -6,15 +6,13 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class DetectorScript : MonoBehaviour
 {
-    private Building building;
-    private PointZone pointZone;
-    public GameManager Manager;
+    [SerializeField] GameManager Manager;
     [SerializeField] TextMeshProUGUI GameScoreText;
     [SerializeField] TextMeshProUGUI ScoreText;
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.TryGetComponent<Building>(out building))
+        if(other.gameObject.TryGetComponent<Building>(out var building))
         {
             Destroy(gameObject);
             gameObject.GetComponent<AudioSource>().Stop();
@@ -22,7 +20,7 @@ public class DetectorScript : MonoBehaviour
             Debug.Log("Game over!");
             Manager.ShowlevelCompletePanel();
             GameScoreText.text = $"Score: {Manager.PlayerScore}";
-        } else if(other.gameObject.TryGetComponent<PointZone>(out pointZone))
+        } else if(other.gameObject.TryGetComponent<PointZone>(out var pointZone))
         {
             other.gameObject.GetComponent<AudioSource>().Play();
             Debug.Log("Passed!");
