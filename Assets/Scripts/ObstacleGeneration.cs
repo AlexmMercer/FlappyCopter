@@ -11,10 +11,10 @@ public class ObstacleGeneration : MonoBehaviour
     [SerializeField] GameObject Obstacle;
     [SerializeField] GameObject Player;
 
-    private float obstaclesXPosition = 2.45f;
+    private float obstaclesXPosition = 2.234f;
     private float obstaclesZPosition = 3.0f;
-    private float obstaclesHeightLowerValue = 4.5f;
-    private float obstaclesHieghtUpperValue = 9.5f;
+    private float obstaclesHeightLowerValue = 6f;
+    private float obstaclesHieghtUpperValue = 11f;
 
     private void Update()
     {
