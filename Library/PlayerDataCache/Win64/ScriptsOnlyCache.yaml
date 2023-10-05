@@ -150,15 +150,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20808}
     - Class: 114
-      Script: {instanceID: 20948}
+      Script: {instanceID: 20950}
     - Class: 114
-      Script: {instanceID: 21128}
+      Script: {instanceID: 21130}
     - Class: 114
-      Script: {instanceID: 21688}
+      Script: {instanceID: 21690}
     - Class: 114
-      Script: {instanceID: 22050}
+      Script: {instanceID: 22052}
     - Class: 114
-      Script: {instanceID: 22830}
+      Script: {instanceID: 22832}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -237,13 +237,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20808}
     - Class: 114
-      Script: {instanceID: 20948}
+      Script: {instanceID: 20950}
     - Class: 114
-      Script: {instanceID: 21128}
+      Script: {instanceID: 21130}
     - Class: 114
-      Script: {instanceID: 21688}
+      Script: {instanceID: 21690}
     - Class: 114
-      Script: {instanceID: 22050}
+      Script: {instanceID: 22052}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -251,6 +251,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -845,7 +849,7 @@ ScriptsOnlyBuild:
     className: PanelEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 66819f925bcd3c2f7b8792e4592c3f16
+      Hash: b7a9dd43ec47eefe8bb36ed0ff937953
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DetectorScript
@@ -903,6 +907,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DestroyBound
   - hash:
       serializedVersion: 2
       Hash: 33ce6d27089e29445de3f38cb6ac14b6
@@ -1091,7 +1101,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 99cc4c6a5c1c613b75beb470a213ff68
+      Hash: 2638ee793cec174cc268bb04d539bc03
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController

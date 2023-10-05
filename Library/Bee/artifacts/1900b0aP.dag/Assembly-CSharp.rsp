@@ -313,6 +313,7 @@
 "Assets/Fx Explosion Pack/Script/csMouseOrbit.cs"
 "Assets/Fx Explosion Pack/Script/DestroyEffect.cs"
 "Assets/Scripts/Building.cs"
+"Assets/Scripts/DestroyBound.cs"
 "Assets/Scripts/DetectorScript.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GenerateEnvironment.cs"
