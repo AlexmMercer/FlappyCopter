@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     private float upperNormalYPos = 20.0f;
     [SerializeField] GameManager Manager;
     [SerializeField] TextMeshProUGUI GameScoreText;
+    [SerializeField] TextMeshProUGUI GameHighScoreText;
     [SerializeField] AudioClip ExplosionClip;
     [SerializeField] GameObject ScoreText;
     [SerializeField] float Gravity = -9.8f;
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
             ScoreText.SetActive(false);
             Manager.ShowlevelCompletePanel();
             GameScoreText.text = $"Score: {Manager.PlayerScore}";
+            GameHighScoreText.text = $"High Score: {Manager.PlayerHighScore}";
         }
         
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))

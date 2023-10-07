@@ -9,6 +9,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public int PlayerScore;
+    public int PlayerHighScore;
     public GameObject LevelCompletePanel;
 
     void Start()
