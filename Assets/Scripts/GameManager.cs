@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 {
     public int PlayerScore;
     public int PlayerHighScore;
-    public GameObject LevelCompletePanel;
+    [SerializeField] GameObject LevelCompletePanel;
 
     void Start()
     {

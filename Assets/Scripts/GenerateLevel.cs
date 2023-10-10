@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GenerateLevel : MonoBehaviour
 {
+    [SerializeField] GameManager Manager;
     [SerializeField] float LifeTime = 20;
     [SerializeField] float Speed = 5.0f;
 

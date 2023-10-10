@@ -71,7 +71,13 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: MainmenuManager
+    methodName: ShowHint
+  - assembly: Assembly-CSharp
+    fullTypeName: MainmenuManager
     methodName: StartLevel
+  - assembly: Assembly-CSharp
+    fullTypeName: MainmenuManager
+    methodName: CloseHint
   - assembly: Assembly-CSharp
     fullTypeName: MainmenuManager
     methodName: ExitGame
@@ -212,6 +218,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16602}
     - Class: 114
       Script: {instanceID: 16646}
+    - Class: 114
+      Script: {instanceID: 17360}
     - Class: 114
       Script: {instanceID: 17396}
     - Class: 114
@@ -391,7 +399,7 @@ ScriptsOnlyBuild:
     className: GameManager
   - hash:
       serializedVersion: 2
-      Hash: 0272b6cef22617c76940fecc6ee71e0b
+      Hash: 16780845dcc3cdb56e013c9e344f81f5
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GenerateLevel
@@ -847,7 +855,7 @@ ScriptsOnlyBuild:
     className: PanelEventHandler
   - hash:
       serializedVersion: 2
-      Hash: fbcd084585802d54781a6e430b311190
+      Hash: 5fc401715e9ea69b4fbd50cef0ab218b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DetectorScript
@@ -859,7 +867,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: 76ea55fc17254dbe7e9a2f42de049ad6
+      Hash: 562f7034a40994ac7a9f1ab392d57216
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ObstacleGeneration
@@ -1189,7 +1197,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 69c96a80c9775e35048276c8bca0afdf
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MainmenuManager
@@ -1211,6 +1219,36 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8757a9e6c47d52bea9fc412c1b5e6d0a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SmoothMouseLook
+  - hash:
+      serializedVersion: 2
+      Hash: 357233ca6c5965a6be60a4af830d1a23
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SkyboxChanger
+  - hash:
+      serializedVersion: 2
+      Hash: 11e9c68f15be2e1fc51ffae22c55f21b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SkyboxRotator
+  - hash:
+      serializedVersion: 2
+      Hash: 34b31feb94bd2c136c6f329102f7b01a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FPSWalkerEnhanced
+  - hash:
+      serializedVersion: 2
+      Hash: 57886cc22d33aa049b2c788e702798f4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Orbit
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity

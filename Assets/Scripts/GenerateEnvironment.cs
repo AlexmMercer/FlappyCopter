@@ -15,7 +15,7 @@ public class GenerateEnvironment : MonoBehaviour
     private void Update()
     {
         SendTimer -= Time.deltaTime;
-        if(SendTimer <= 0 )
+        if (SendTimer <= 0)
         {
             Instantiate(Floor, new Vector3(roadXGenerationPos,
                                            roadYGenerationPos,

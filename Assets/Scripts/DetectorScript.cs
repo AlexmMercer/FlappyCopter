@@ -10,6 +10,7 @@ public class DetectorScript : MonoBehaviour
     [SerializeField] TextMeshProUGUI GameScoreText;
     [SerializeField] TextMeshProUGUI HighScoreText;
     [SerializeField] GameObject ScoreText;
+    [SerializeField] GameObject MissileIcon;
     [SerializeField] ParticleSystem ExplosionEffect;
 
 
@@ -29,6 +30,7 @@ public class DetectorScript : MonoBehaviour
             other.gameObject.GetComponent<AudioSource>().Play();
             Debug.Log("Game over!");
             ScoreText.SetActive(false);
+            MissileIcon.SetActive(false);
             Manager.ShowlevelCompletePanel();
             GameScoreText.text = $"Score: {Manager.PlayerScore}";
             HighScoreText.text = $"High Score: {Manager.PlayerHighScore}";

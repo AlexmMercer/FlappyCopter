@@ -10,6 +10,7 @@ public class ObstacleGeneration : MonoBehaviour
     [SerializeField] float Position;
     [SerializeField] GameObject Obstacle;
     [SerializeField] GameObject Player;
+    [SerializeField] GameManager Manager;
 
     private float obstaclesXPosition = 2.234f;
     private float obstaclesZPosition = 3.0f;
