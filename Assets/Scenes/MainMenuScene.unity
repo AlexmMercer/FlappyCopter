@@ -1239,7 +1239,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -123.45988, y: 341}
+  m_AnchoredPosition: {x: -123.45988, y: 358}
   m_SizeDelta: {x: 773.9284, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &881283432
@@ -1265,11 +1265,15 @@ MonoBehaviour:
   m_text: 'You need to avoid colliding with both a skyscraper and a crane. To do
     this you need to fly through the gaps between them.
 
-    
 
-    The helicopter
-    constantly pulls down, but when you press the left mouse button it is thrown
-    up.'
+    The helicopter constantly
+    pulls down, but when you press the left mouse button it is thrown up.
+
+
+    When
+    you press button 2, the helicopter fires a rocket, but only if there is a tank
+    in front of you. Otherwise, starting is impossible. After launch, the ammunition
+    reloads, keep this in mind.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 578daac93d93d294eb93ed8461c9a5e1, type: 2}
   m_sharedMaterial: {fileID: -7649612085785211560, guid: 578daac93d93d294eb93ed8461c9a5e1, type: 2}
@@ -1296,8 +1300,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64
-  m_fontSizeBase: 64
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

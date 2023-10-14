@@ -36,6 +36,10 @@ PrefabInstance:
       propertyPath: frequency
       value: 1.65
       objectReference: {fileID: 0}
+    - target: {fileID: 1494315115587454073, guid: 000e6f852de8c2547a70214095791e22, type: 3}
+      propertyPath: BarrelPrefab
+      value: 
+      objectReference: {fileID: 8796608534677031006, guid: d6e0d472a7d199945adee383b66c9902, type: 3}
     - target: {fileID: 5778164950796290120, guid: 000e6f852de8c2547a70214095791e22, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.0133376
