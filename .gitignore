@@ -80,3 +80,5 @@ process = git-lfs filter-process
 Library/
 
 Builds/
+
+Logs/
