@@ -9,6 +9,9 @@ public class DetectorScript : MonoBehaviour
     [SerializeField] GameManager Manager;
     [SerializeField] TextMeshProUGUI GameScoreText;
     [SerializeField] TextMeshProUGUI HighScoreText;
+    [SerializeField] GameObject GameScorePanel;
+    [SerializeField] GameObject UprisePlayerButton;
+    [SerializeField] GameObject LaunchMissileButton;
     [SerializeField] GameObject ScoreText;
     [SerializeField] GameObject MissileIcon;
     [SerializeField] ParticleSystem ExplosionEffect;
@@ -16,7 +19,7 @@ public class DetectorScript : MonoBehaviour
 
     private void Start()
     {
-        Manager.PlayerHighScore = PlayerPrefs.GetInt("Manager.PlayerHighScore", 0);
+        Manager.SetStartPlayerHighScore();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -29,36 +32,42 @@ public class DetectorScript : MonoBehaviour
             gameObject.GetComponent<AudioSource>().Stop();
             other.gameObject.GetComponent<AudioSource>().Play();
             Debug.Log("Game over!");
-            ScoreText.SetActive(false);
+            //ScoreText.SetActive(false);
             MissileIcon.SetActive(false);
+            GameScorePanel.SetActive(false);
+            UprisePlayerButton.SetActive(false);
+            LaunchMissileButton.SetActive(false);
             Manager.ShowlevelCompletePanel();
-            GameScoreText.text = $"Score: {Manager.PlayerScore}";
-            HighScoreText.text = $"High Score: {Manager.PlayerHighScore}";
+            GameScoreText.text = $"Score: {Manager.GetPlayerScore()}";
+            HighScoreText.text = $"High Score: {Manager.GetPlayerHighScore()}";
         } else if(other.gameObject.TryGetComponent<PointZone>(out var pointZone))
         {
             other.gameObject.GetComponent<AudioSource>().Play();
             Debug.Log("Passed!");
-            Manager.PlayerScore++;
-            if(Manager.PlayerHighScore < Manager.PlayerScore)
+            Manager.IncreasePlayerScore();
+            if(Manager.GetPlayerHighScore() < Manager.GetPlayerScore())
             {
-                PlayerPrefs.SetInt("Manager.PlayerHighScore", Manager.PlayerScore);
+                Manager.SetPlayerHighScore();
             }
-            ScoreText.GetComponent<TextMeshProUGUI>().text = $"{Manager.PlayerScore}";
+            ScoreText.GetComponent<TextMeshProUGUI>().text = $"{Manager.GetPlayerScore()}";
         } else if(other.gameObject.TryGetComponent<Barrel>(out var barrel))
         {
             Instantiate(ExplosionEffect, transform.position,
                         Quaternion.identity);
             ExplosionEffect.Play();
             Destroy(gameObject);
-            gameObject.GetComponent<AudioSource>().Stop();
-            other.gameObject.GetComponent<AudioSource>().Play();
-            Debug.Log("Game over!");
             ScoreText.SetActive(false);
             MissileIcon.SetActive(false);
+            GameScorePanel.SetActive(false);
+            UprisePlayerButton.SetActive(false);
+            LaunchMissileButton.SetActive(false);
+            Instantiate(ExplosionEffect, other.gameObject.transform.position,
+                        Quaternion.identity); 
+            ExplosionEffect.Play();
             Destroy(other.gameObject);
             Manager.ShowlevelCompletePanel();
-            GameScoreText.text = $"Score: {Manager.PlayerScore}";
-            HighScoreText.text = $"High Score: {Manager.PlayerHighScore}";
+            GameScoreText.text = $"Score: {Manager.GetPlayerScore()}";
+            HighScoreText.text = $"High Score: {Manager.GetPlayerHighScore()}";
         }
     }
 }

@@ -382,8 +382,6 @@
 "Assets/Scripts/GeneralScriptsForMainGameplay/PointZone.cs"
 "Assets/Scripts/GeneralScriptsForMainGameplay/RotatehelicopterBlades.cs"
 "Assets/Scripts/TestScriptsFolder/LaunchMissilesTestScript.cs"
-"Assets/SecondManager.cs"
-"Assets/_Heathen Engineering/Samples/UX Examples/Flat Icons [Free]/ToggleSetAnimatorBoolean.cs"
 -langversion:9.0
 
 /deterministic

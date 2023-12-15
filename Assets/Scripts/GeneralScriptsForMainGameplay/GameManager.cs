@@ -8,8 +8,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public int PlayerScore;
-    public int PlayerHighScore;
+    private int PlayerScore;
+    private int PlayerHighScore;
     [SerializeField] GameObject LevelCompletePanel;
 
     void Start()
@@ -17,6 +17,32 @@ public class GameManager : MonoBehaviour
         LevelCompletePanel.SetActive(false);
 
     }
+
+    public int GetPlayerScore()
+    {
+        return PlayerScore;
+    }
+
+    public int GetPlayerHighScore()
+    {
+        return PlayerHighScore;
+    }
+
+    public void IncreasePlayerScore()
+    {
+        PlayerScore++;
+    }
+
+    public void SetStartPlayerHighScore()
+    {
+        PlayerHighScore = PlayerPrefs.GetInt("PlayerHighScore", 0);
+    }
+
+    public void SetPlayerHighScore()
+    {
+        PlayerPrefs.SetInt("PlayerHighScore", PlayerScore);
+    }
+
     public void RestartLevel()
     {
         LevelCompletePanel.SetActive(false);

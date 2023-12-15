@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LaunchMissilesTestScript : MonoBehaviour
 {
@@ -8,8 +9,6 @@ public class LaunchMissilesTestScript : MonoBehaviour
 
     private bool missileLaunched = false;
     private GameObject currentMissile;
-    private float reloadTime = 0.05f;
-    private float timeSinceLaunch = 0.0f;
 
     private void Start()
     {
@@ -19,18 +18,25 @@ public class LaunchMissilesTestScript : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Alpha2) && IsShootApproved() == true)
+        if(Input.GetKeyDown(KeyCode.Alpha2))
         {
-            LaunchMissile();
-            currentMissile.transform.Find("smoke").GetComponent<ParticleSystem>().Play();
-            currentMissile.transform.Find("fire").GetComponent<ParticleSystem>().Play();
-            currentMissile.GetComponent<AudioSource>().Play();
-            StartCoroutine(ReloadAfterDelay());
+            LaunchMissileFromButton();
         }
-
-        if (missileLaunched == true && currentMissile != null)
+        if (missileLaunched && currentMissile != null)
         {
             currentMissile.transform.Translate(Vector3.forward * 15.0f * Time.deltaTime);
+        }
+    }
+
+    public void LaunchMissileFromButton()
+    {
+        if (!missileLaunched && IsShootApproved() == true)
+        {
+            Debug.Log("Цель обнаружена. Запускаю ракету.");
+            missileLaunched = true;
+            Debug.Log("Пуск осуществлён.");
+            StartCoroutine(PlayMissileEffects());
+            StartCoroutine(ReloadAfterDelay());
         }
     }
 
@@ -56,11 +62,15 @@ public class LaunchMissilesTestScript : MonoBehaviour
         }
     }
 
-    void LaunchMissile()
+    IEnumerator PlayMissileEffects()
     {
-        Debug.Log("Цель обнаружена. Запускаю ракету.");
-        missileLaunched = true;
-        Debug.Log("Пуск осуществлён.");
+        if (currentMissile != null)
+        {
+            currentMissile.transform.Find("smoke").GetComponent<ParticleSystem>().Play();
+            currentMissile.transform.Find("fire").GetComponent<ParticleSystem>().Play();
+            currentMissile.GetComponent<AudioSource>().Play();
+            yield return null;
+        }
     }
 
     IEnumerator ReloadAfterDelay()

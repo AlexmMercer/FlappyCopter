@@ -74,6 +74,12 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: MainmenuManager
+    methodName: CloseSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: MainmenuManager
+    methodName: ShowSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: MainmenuManager
     methodName: ShowHint
   - assembly: Assembly-CSharp
     fullTypeName: MainmenuManager
@@ -147,31 +153,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18148}
     - Class: 114
-      Script: {instanceID: 19154}
+      Script: {instanceID: 19150}
     - Class: 114
-      Script: {instanceID: 19404}
+      Script: {instanceID: 19400}
     - Class: 114
-      Script: {instanceID: 19712}
+      Script: {instanceID: 19708}
     - Class: 114
-      Script: {instanceID: 20046}
+      Script: {instanceID: 20042}
     - Class: 114
-      Script: {instanceID: 20118}
+      Script: {instanceID: 20114}
     - Class: 114
-      Script: {instanceID: 20274}
+      Script: {instanceID: 20270}
     - Class: 114
-      Script: {instanceID: 20674}
+      Script: {instanceID: 20670}
     - Class: 114
-      Script: {instanceID: 20822}
+      Script: {instanceID: 20818}
     - Class: 114
-      Script: {instanceID: 20964}
+      Script: {instanceID: 20960}
     - Class: 114
-      Script: {instanceID: 21144}
+      Script: {instanceID: 21140}
     - Class: 114
-      Script: {instanceID: 21706}
+      Script: {instanceID: 21702}
     - Class: 114
-      Script: {instanceID: 22068}
+      Script: {instanceID: 22064}
     - Class: 114
-      Script: {instanceID: 22850}
+      Script: {instanceID: 22846}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 123
@@ -248,29 +254,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18148}
     - Class: 114
-      Script: {instanceID: 19712}
+      Script: {instanceID: 19708}
     - Class: 114
-      Script: {instanceID: 19804}
+      Script: {instanceID: 19800}
     - Class: 114
-      Script: {instanceID: 20046}
+      Script: {instanceID: 20042}
     - Class: 114
-      Script: {instanceID: 20118}
+      Script: {instanceID: 20114}
     - Class: 114
-      Script: {instanceID: 20274}
+      Script: {instanceID: 20270}
     - Class: 114
-      Script: {instanceID: 20320}
+      Script: {instanceID: 20316}
     - Class: 114
-      Script: {instanceID: 20674}
+      Script: {instanceID: 20670}
     - Class: 114
-      Script: {instanceID: 20822}
+      Script: {instanceID: 20818}
     - Class: 114
-      Script: {instanceID: 20964}
+      Script: {instanceID: 20960}
     - Class: 114
-      Script: {instanceID: 21144}
+      Script: {instanceID: 21140}
     - Class: 114
-      Script: {instanceID: 21706}
+      Script: {instanceID: 21702}
     - Class: 114
-      Script: {instanceID: 22068}
+      Script: {instanceID: 22064}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 123
@@ -350,7 +356,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: da9adcc15247d14e3c8c62f5a16ef402
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Barrel
@@ -434,7 +440,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 60d8941492d28e0adcfd51a9866a9849
+      Hash: f37f69a1e02b2e5efcfb0860e9e797fb
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -621,12 +627,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SecondManager
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
@@ -666,12 +666,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
     className: ScriptGraphAsset
-  - hash:
-      serializedVersion: 2
-      Hash: f66da5ca5dc5cb17e147060e658075e7
-    assemblyName: Assembly-CSharp
-    namespaceName: HeathenEngineering.UX.Samples
-    className: ToggleSetAnimatorBoolean
   - hash:
       serializedVersion: 2
       Hash: 0286ed84936a6e3c4dba049ae21a7b1c
@@ -1274,7 +1268,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 69c96a80c9775e35048276c8bca0afdf
+      Hash: 72afbeaacb48999c158bb94a9fab9fae
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MainmenuManager

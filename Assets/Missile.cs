@@ -9,8 +9,6 @@ public class Missile : MonoBehaviour
         if(other.TryGetComponent<Barrel>(out var Barrel) == true)
         {
             Destroy(gameObject);
-            other.gameObject.GetComponent<AudioSource>().Play();
-            Destroy(other.gameObject);
         }
     }
 }
